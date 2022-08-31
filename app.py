@@ -47,7 +47,7 @@ def predict():
         file = request.files['image'] # fet input
         filename = file.filename        
          
-        file_path = os.path.join('static/user uploaded', filename)
+        file_path = os.path.join('static/', filename)
         file.save(file_path)
  
         pred, output_page = pred_cot_dieas(cott_plant=file_path)
