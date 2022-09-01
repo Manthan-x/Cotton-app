@@ -8,7 +8,6 @@ from tensorflow.keras.models import load_model
 
 model =load_model("model/model.h5")
 
-st.image('https://source.unsplash.com/720x700/?agriculture,nature')
 
 st.title('Cotton Plant Diesease Model')
 
